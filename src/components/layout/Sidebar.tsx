@@ -41,7 +41,7 @@ export function Sidebar({ activeTab, onTabChange }: SidebarProps) {
             <div className="w-8 h-8 rounded-lg gradient-primary flex items-center justify-center">
               <Sparkles className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="font-semibold text-sidebar-foreground">TourismAI</span>
+            <span className="font-semibold text-sidebar-foreground">TURASAI</span>
           </div>
         )}
         <button
