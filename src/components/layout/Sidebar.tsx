@@ -8,8 +8,8 @@ import {
   Settings,
   ChevronLeft,
   ChevronRight,
-  Sparkles,
 } from 'lucide-react';
+import meathLogo from '@/assets/meath-logo.png';
 
 interface SidebarProps {
   activeTab: string;
@@ -38,9 +38,7 @@ export function Sidebar({ activeTab, onTabChange }: SidebarProps) {
       <div className="h-16 flex items-center justify-between px-4 border-b border-sidebar-border">
         {!collapsed && (
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg gradient-primary flex items-center justify-center">
-              <Sparkles className="w-5 h-5 text-primary-foreground" />
-            </div>
+            <img src={meathLogo} alt="Meath County Council" className="h-8 w-auto" />
             <span className="font-semibold text-sidebar-foreground">TURASAI</span>
           </div>
         )}
