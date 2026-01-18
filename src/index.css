@@ -4,30 +4,30 @@
 
 @layer base {
   :root {
-    /* Ocean-inspired tourism palette */
-    --background: 210 20% 98%;
-    --foreground: 215 25% 15%;
+    /* Meath County Council inspired palette */
+    --background: 220 20% 97%;
+    --foreground: 220 40% 13%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 15%;
+    --card-foreground: 220 40% 13%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 15%;
+    --popover-foreground: 220 40% 13%;
 
-    /* Teal primary - trust, travel, professionalism */
-    --primary: 185 65% 35%;
-    --primary-foreground: 0 0% 100%;
+    /* Meath Gold primary #F4B451 */
+    --primary: 40 88% 64%;
+    --primary-foreground: 220 40% 13%;
 
-    /* Warm secondary */
-    --secondary: 210 15% 93%;
-    --secondary-foreground: 215 25% 25%;
+    /* Navy secondary */
+    --secondary: 220 35% 92%;
+    --secondary-foreground: 220 40% 20%;
 
-    --muted: 210 15% 95%;
-    --muted-foreground: 215 15% 45%;
+    --muted: 220 20% 94%;
+    --muted-foreground: 220 15% 45%;
 
-    /* Amber accent for actions */
-    --accent: 38 95% 55%;
-    --accent-foreground: 25 100% 15%;
+    /* Navy accent for emphasis */
+    --accent: 220 55% 25%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 72% 55%;
     --destructive-foreground: 0 0% 100%;
@@ -40,55 +40,56 @@
     --warning: 28 95% 55%;
     --warning-foreground: 25 100% 15%;
 
-    --border: 210 20% 88%;
-    --input: 210 20% 88%;
-    --ring: 185 65% 35%;
+    --border: 220 20% 88%;
+    --input: 220 20% 88%;
+    --ring: 40 88% 64%;
 
     --radius: 0.75rem;
 
-    /* Custom gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(185, 65%, 35%), hsl(200, 70%, 40%));
-    --gradient-warm: linear-gradient(135deg, hsl(38, 95%, 55%), hsl(28, 95%, 55%));
-    --gradient-surface: linear-gradient(180deg, hsl(210, 20%, 98%), hsl(210, 15%, 95%));
-    --gradient-hero: linear-gradient(135deg, hsl(185, 60%, 30%), hsl(200, 65%, 35%), hsl(210, 50%, 40%));
+    /* Custom gradients - Meath gold and navy */
+    --gradient-primary: linear-gradient(135deg, hsl(40, 88%, 64%), hsl(35, 90%, 55%));
+    --gradient-warm: linear-gradient(135deg, hsl(40, 88%, 64%), hsl(30, 85%, 55%));
+    --gradient-surface: linear-gradient(180deg, hsl(220, 20%, 97%), hsl(220, 15%, 94%));
+    --gradient-hero: linear-gradient(135deg, hsl(220, 55%, 20%), hsl(220, 50%, 28%), hsl(220, 45%, 35%));
 
     /* Shadows */
-    --shadow-sm: 0 1px 2px 0 hsl(215 25% 15% / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(215 25% 15% / 0.08), 0 2px 4px -2px hsl(215 25% 15% / 0.06);
-    --shadow-lg: 0 10px 15px -3px hsl(215 25% 15% / 0.1), 0 4px 6px -4px hsl(215 25% 15% / 0.08);
-    --shadow-glow: 0 0 20px hsl(185 65% 35% / 0.15);
+    --shadow-sm: 0 1px 2px 0 hsl(220 40% 13% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(220 40% 13% / 0.08), 0 2px 4px -2px hsl(220 40% 13% / 0.06);
+    --shadow-lg: 0 10px 15px -3px hsl(220 40% 13% / 0.1), 0 4px 6px -4px hsl(220 40% 13% / 0.08);
+    --shadow-glow: 0 0 20px hsl(40 88% 64% / 0.25);
 
-    --sidebar-background: 0 0% 100%;
-    --sidebar-foreground: 215 25% 25%;
-    --sidebar-primary: 185 65% 35%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 210 15% 95%;
-    --sidebar-accent-foreground: 215 25% 25%;
-    --sidebar-border: 210 20% 90%;
-    --sidebar-ring: 185 65% 35%;
+    /* Sidebar - Navy theme */
+    --sidebar-background: 220 55% 18%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 40 88% 64%;
+    --sidebar-primary-foreground: 220 40% 13%;
+    --sidebar-accent: 220 50% 25%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 220 45% 25%;
+    --sidebar-ring: 40 88% 64%;
   }
 
   .dark {
-    --background: 215 30% 8%;
-    --foreground: 210 20% 95%;
+    --background: 220 35% 8%;
+    --foreground: 220 15% 95%;
 
-    --card: 215 25% 12%;
-    --card-foreground: 210 20% 95%;
+    --card: 220 30% 12%;
+    --card-foreground: 220 15% 95%;
 
-    --popover: 215 25% 12%;
-    --popover-foreground: 210 20% 95%;
+    --popover: 220 30% 12%;
+    --popover-foreground: 220 15% 95%;
 
-    --primary: 185 60% 45%;
-    --primary-foreground: 215 30% 8%;
+    --primary: 40 85% 58%;
+    --primary-foreground: 220 35% 8%;
 
-    --secondary: 215 20% 18%;
-    --secondary-foreground: 210 15% 85%;
+    --secondary: 220 25% 18%;
+    --secondary-foreground: 220 10% 85%;
 
-    --muted: 215 20% 16%;
-    --muted-foreground: 215 15% 55%;
+    --muted: 220 25% 16%;
+    --muted-foreground: 220 15% 55%;
 
-    --accent: 38 90% 50%;
-    --accent-foreground: 25 100% 10%;
+    --accent: 220 50% 35%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 65% 50%;
     --destructive-foreground: 0 0% 100%;
@@ -99,20 +100,20 @@
     --warning: 28 90% 50%;
     --warning-foreground: 25 100% 10%;
 
-    --border: 215 20% 20%;
-    --input: 215 20% 20%;
-    --ring: 185 60% 45%;
+    --border: 220 25% 20%;
+    --input: 220 25% 20%;
+    --ring: 40 85% 58%;
 
-    --gradient-hero: linear-gradient(135deg, hsl(185, 55%, 25%), hsl(200, 60%, 30%), hsl(210, 45%, 35%));
+    --gradient-hero: linear-gradient(135deg, hsl(220, 50%, 15%), hsl(220, 45%, 22%), hsl(220, 40%, 30%));
 
-    --sidebar-background: 215 25% 10%;
-    --sidebar-foreground: 210 15% 85%;
-    --sidebar-primary: 185 60% 45%;
-    --sidebar-primary-foreground: 215 30% 8%;
-    --sidebar-accent: 215 20% 16%;
-    --sidebar-accent-foreground: 210 15% 85%;
-    --sidebar-border: 215 20% 18%;
-    --sidebar-ring: 185 60% 45%;
+    --sidebar-background: 220 35% 10%;
+    --sidebar-foreground: 220 10% 90%;
+    --sidebar-primary: 40 85% 58%;
+    --sidebar-primary-foreground: 220 35% 8%;
+    --sidebar-accent: 220 25% 16%;
+    --sidebar-accent-foreground: 220 10% 90%;
+    --sidebar-border: 220 25% 18%;
+    --sidebar-ring: 40 85% 58%;
   }
 }
 
