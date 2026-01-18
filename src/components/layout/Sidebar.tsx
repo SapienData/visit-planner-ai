@@ -4,6 +4,7 @@ import {
   LayoutDashboard,
   Calendar,
   CheckCircle,
+  Globe,
   Route,
   Settings,
   ChevronLeft,
@@ -20,6 +21,7 @@ const navItems = [
   { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { id: 'events', label: 'Events Pipeline', icon: Calendar },
   { id: 'moderation', label: 'Moderation', icon: CheckCircle },
+  { id: 'published', label: 'Published to meath.ie', icon: Globe },
   { id: 'itinerary', label: 'AI Itinerary Builder', icon: Route, highlight: true },
   { id: 'settings', label: 'Settings', icon: Settings },
 ];

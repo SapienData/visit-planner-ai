@@ -3,6 +3,7 @@ import { Sidebar } from '@/components/layout/Sidebar';
 import { DashboardView } from '@/components/views/DashboardView';
 import { EventsView } from '@/components/views/EventsView';
 import { ModerationView } from '@/components/views/ModerationView';
+import { PublishedView } from '@/components/views/PublishedView';
 import { ItineraryView } from '@/components/views/ItineraryView';
 import { SettingsView } from '@/components/views/SettingsView';
 import { cn } from '@/lib/utils';
@@ -19,6 +20,8 @@ const Index = () => {
         return <EventsView />;
       case 'moderation':
         return <ModerationView />;
+      case 'published':
+        return <PublishedView />;
       case 'itinerary':
         return <ItineraryView />;
       case 'settings':
